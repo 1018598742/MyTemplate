@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="1"
+    name="DebugUtil"
+    description="Creates a new Debug Util">
+
+    <category value="Other" />
+
+    <parameter
+        id="className"
+        name="Class Name"
+        type="string"
+        default="DebugUtil" />
+
+    <execute file="recipe.xml.ftl" />
+
+</template>
